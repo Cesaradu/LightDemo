@@ -8,24 +8,57 @@
 
 /* Begin PBXBuildFile section */
 		CE7A26D6219BABD100BBCFC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7A26D5219BABD100BBCFC4 /* AppDelegate.m */; };
-		CE7A26D9219BABD100BBCFC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7A26D8219BABD100BBCFC4 /* ViewController.m */; };
+		CE7A26D9219BABD100BBCFC4 /* LightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7A26D8219BABD100BBCFC4 /* LightViewController.m */; };
 		CE7A26DC219BABD100BBCFC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7A26DA219BABD100BBCFC4 /* Main.storyboard */; };
 		CE7A26DE219BABD300BBCFC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7A26DD219BABD300BBCFC4 /* Assets.xcassets */; };
 		CE7A26E1219BABD300BBCFC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7A26DF219BABD300BBCFC4 /* LaunchScreen.storyboard */; };
 		CE7A26E4219BABD300BBCFC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7A26E3219BABD300BBCFC4 /* main.m */; };
+		CE7A2716219BC12E00BBCFC4 /* UIColor+ColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7A26FD219BC12D00BBCFC4 /* UIColor+ColorHelper.m */; };
+		CE7A2717219BC12E00BBCFC4 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7A2700219BC12D00BBCFC4 /* UIImage+Color.m */; };
+		CE7A2718219BC12E00BBCFC4 /* UIImage+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7A2702219BC12D00BBCFC4 /* UIImage+Size.m */; };
+		CE7A271E219BC12E00BBCFC4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7A2711219BC12D00BBCFC4 /* UIView+Frame.m */; };
+		CE7A2726219BC26D00BBCFC4 /* ADLightSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7A2720219BC26D00BBCFC4 /* ADLightSlider.m */; };
+		CE7A2727219BC26D00BBCFC4 /* ADLightSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7A2723219BC26D00BBCFC4 /* ADLightSwitch.m */; };
+		CE7A2728219BC26D00BBCFC4 /* ADShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7A2725219BC26D00BBCFC4 /* ADShadowView.m */; };
+		CE7A272B219BF2DE00BBCFC4 /* ADLightView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7A272A219BF2DE00BBCFC4 /* ADLightView.m */; };
+		CED830B2219E6A7700DD77EB /* ADColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = CED830B1219E6A7700DD77EB /* ADColorPicker.m */; };
+		FFD8DD41970059C53DC6AC4B /* libPods-LightDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22956E09F64BA92C8149D55D /* libPods-LightDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17AC367962524CEF4018C104 /* Pods-LightDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LightDemo/Pods-LightDemo.release.xcconfig"; sourceTree = "<group>"; };
+		22956E09F64BA92C8149D55D /* libPods-LightDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LightDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B573A757ABD7A1A676AF9D9 /* Pods-LightDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LightDemo/Pods-LightDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CE7A26D1219BABD100BBCFC4 /* LightDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7A26D4219BABD100BBCFC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE7A26D5219BABD100BBCFC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE7A26D7219BABD100BBCFC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE7A26D8219BABD100BBCFC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE7A26D7219BABD100BBCFC4 /* LightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightViewController.h; sourceTree = "<group>"; };
+		CE7A26D8219BABD100BBCFC4 /* LightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightViewController.m; sourceTree = "<group>"; };
 		CE7A26DB219BABD100BBCFC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE7A26DD219BABD300BBCFC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE7A26E0219BABD300BBCFC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE7A26E2219BABD300BBCFC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE7A26E3219BABD300BBCFC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE7A26EB219BBFCA00BBCFC4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CE7A26EC219BC04800BBCFC4 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		CE7A26FC219BC12D00BBCFC4 /* UIColor+ColorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorHelper.h"; sourceTree = "<group>"; };
+		CE7A26FD219BC12D00BBCFC4 /* UIColor+ColorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorHelper.m"; sourceTree = "<group>"; };
+		CE7A26FF219BC12D00BBCFC4 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		CE7A2700219BC12D00BBCFC4 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		CE7A2701219BC12D00BBCFC4 /* UIImage+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Size.h"; sourceTree = "<group>"; };
+		CE7A2702219BC12D00BBCFC4 /* UIImage+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Size.m"; sourceTree = "<group>"; };
+		CE7A2710219BC12D00BBCFC4 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		CE7A2711219BC12D00BBCFC4 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		CE7A2720219BC26D00BBCFC4 /* ADLightSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADLightSlider.m; sourceTree = "<group>"; };
+		CE7A2721219BC26D00BBCFC4 /* ADLightSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADLightSlider.h; sourceTree = "<group>"; };
+		CE7A2722219BC26D00BBCFC4 /* ADLightSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADLightSwitch.h; sourceTree = "<group>"; };
+		CE7A2723219BC26D00BBCFC4 /* ADLightSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADLightSwitch.m; sourceTree = "<group>"; };
+		CE7A2724219BC26D00BBCFC4 /* ADShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADShadowView.h; sourceTree = "<group>"; };
+		CE7A2725219BC26D00BBCFC4 /* ADShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADShadowView.m; sourceTree = "<group>"; };
+		CE7A2729219BF2DE00BBCFC4 /* ADLightView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADLightView.h; sourceTree = "<group>"; };
+		CE7A272A219BF2DE00BBCFC4 /* ADLightView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADLightView.m; sourceTree = "<group>"; };
+		CED830B0219E6A7700DD77EB /* ADColorPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADColorPicker.h; sourceTree = "<group>"; };
+		CED830B1219E6A7700DD77EB /* ADColorPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADColorPicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +66,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFD8DD41970059C53DC6AC4B /* libPods-LightDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		546A6F6DA76AEDDE78388ABA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22956E09F64BA92C8149D55D /* libPods-LightDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FFEF45E4101C68CB8B0B49C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B573A757ABD7A1A676AF9D9 /* Pods-LightDemo.debug.xcconfig */,
+				17AC367962524CEF4018C104 /* Pods-LightDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CE7A26C8219BABD100BBCFC4 = {
 			isa = PBXGroup;
 			children = (
 				CE7A26D3219BABD100BBCFC4 /* LightDemo */,
 				CE7A26D2219BABD100BBCFC4 /* Products */,
+				7FFEF45E4101C68CB8B0B49C /* Pods */,
+				546A6F6DA76AEDDE78388ABA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +113,11 @@
 			children = (
 				CE7A26D4219BABD100BBCFC4 /* AppDelegate.h */,
 				CE7A26D5219BABD100BBCFC4 /* AppDelegate.m */,
-				CE7A26D7219BABD100BBCFC4 /* ViewController.h */,
-				CE7A26D8219BABD100BBCFC4 /* ViewController.m */,
+				CE7A26D7219BABD100BBCFC4 /* LightViewController.h */,
+				CE7A26D8219BABD100BBCFC4 /* LightViewController.m */,
+				CE7A271F219BC1B700BBCFC4 /* LightScene */,
+				CE7A26EE219BC12D00BBCFC4 /* Extension */,
+				CE7A26EA219BBFB600BBCFC4 /* Defines */,
 				CE7A26DA219BABD100BBCFC4 /* Main.storyboard */,
 				CE7A26DD219BABD300BBCFC4 /* Assets.xcassets */,
 				CE7A26DF219BABD300BBCFC4 /* LaunchScreen.storyboard */,
@@ -71,6 +127,71 @@
 			path = LightDemo;
 			sourceTree = "<group>";
 		};
+		CE7A26EA219BBFB600BBCFC4 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A26EB219BBFCA00BBCFC4 /* PrefixHeader.pch */,
+				CE7A26EC219BC04800BBCFC4 /* Define.h */,
+			);
+			path = Defines;
+			sourceTree = "<group>";
+		};
+		CE7A26EE219BC12D00BBCFC4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A26FB219BC12D00BBCFC4 /* UIColorHelper */,
+				CE7A26FE219BC12D00BBCFC4 /* UIImageHelper */,
+				CE7A270F219BC12D00BBCFC4 /* UIViewHelper */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CE7A26FB219BC12D00BBCFC4 /* UIColorHelper */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A26FC219BC12D00BBCFC4 /* UIColor+ColorHelper.h */,
+				CE7A26FD219BC12D00BBCFC4 /* UIColor+ColorHelper.m */,
+			);
+			path = UIColorHelper;
+			sourceTree = "<group>";
+		};
+		CE7A26FE219BC12D00BBCFC4 /* UIImageHelper */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A26FF219BC12D00BBCFC4 /* UIImage+Color.h */,
+				CE7A2700219BC12D00BBCFC4 /* UIImage+Color.m */,
+				CE7A2701219BC12D00BBCFC4 /* UIImage+Size.h */,
+				CE7A2702219BC12D00BBCFC4 /* UIImage+Size.m */,
+			);
+			path = UIImageHelper;
+			sourceTree = "<group>";
+		};
+		CE7A270F219BC12D00BBCFC4 /* UIViewHelper */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A2710219BC12D00BBCFC4 /* UIView+Frame.h */,
+				CE7A2711219BC12D00BBCFC4 /* UIView+Frame.m */,
+			);
+			path = UIViewHelper;
+			sourceTree = "<group>";
+		};
+		CE7A271F219BC1B700BBCFC4 /* LightScene */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A2721219BC26D00BBCFC4 /* ADLightSlider.h */,
+				CE7A2720219BC26D00BBCFC4 /* ADLightSlider.m */,
+				CE7A2722219BC26D00BBCFC4 /* ADLightSwitch.h */,
+				CE7A2723219BC26D00BBCFC4 /* ADLightSwitch.m */,
+				CE7A2724219BC26D00BBCFC4 /* ADShadowView.h */,
+				CE7A2725219BC26D00BBCFC4 /* ADShadowView.m */,
+				CE7A2729219BF2DE00BBCFC4 /* ADLightView.h */,
+				CE7A272A219BF2DE00BBCFC4 /* ADLightView.m */,
+				CED830B0219E6A7700DD77EB /* ADColorPicker.h */,
+				CED830B1219E6A7700DD77EB /* ADColorPicker.m */,
+			);
+			path = LightScene;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE7A26E7219BABD300BBCFC4 /* Build configuration list for PBXNativeTarget "LightDemo" */;
 			buildPhases = (
+				8A2A8DB66FCEAEA25A0DE0EF /* [CP] Check Pods Manifest.lock */,
 				CE7A26CD219BABD100BBCFC4 /* Sources */,
 				CE7A26CE219BABD100BBCFC4 /* Frameworks */,
 				CE7A26CF219BABD100BBCFC4 /* Resources */,
@@ -136,14 +258,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8A2A8DB66FCEAEA25A0DE0EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LightDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE7A26CD219BABD100BBCFC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE7A26D9219BABD100BBCFC4 /* ViewController.m in Sources */,
+				CE7A2718219BC12E00BBCFC4 /* UIImage+Size.m in Sources */,
+				CE7A26D9219BABD100BBCFC4 /* LightViewController.m in Sources */,
+				CE7A2726219BC26D00BBCFC4 /* ADLightSlider.m in Sources */,
+				CE7A272B219BF2DE00BBCFC4 /* ADLightView.m in Sources */,
+				CED830B2219E6A7700DD77EB /* ADColorPicker.m in Sources */,
+				CE7A271E219BC12E00BBCFC4 /* UIView+Frame.m in Sources */,
 				CE7A26E4219BABD300BBCFC4 /* main.m in Sources */,
+				CE7A2717219BC12E00BBCFC4 /* UIImage+Color.m in Sources */,
 				CE7A26D6219BABD100BBCFC4 /* AppDelegate.m in Sources */,
+				CE7A2727219BC26D00BBCFC4 /* ADLightSwitch.m in Sources */,
+				CE7A2728219BC26D00BBCFC4 /* ADShadowView.m in Sources */,
+				CE7A2716219BC12E00BBCFC4 /* UIColor+ColorHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,35 +439,41 @@
 		};
 		CE7A26E8219BABD300BBCFC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B573A757ABD7A1A676AF9D9 /* Pods-LightDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T5ZDL3F6X2;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Defines/PrefixHeader.pch";
 				INFOPLIST_FILE = LightDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.greatstar.LightDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CE7A26E9219BABD300BBCFC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17AC367962524CEF4018C104 /* Pods-LightDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T5ZDL3F6X2;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Defines/PrefixHeader.pch";
 				INFOPLIST_FILE = LightDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.greatstar.LightDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
